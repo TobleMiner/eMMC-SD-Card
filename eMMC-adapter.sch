@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -66,7 +66,12 @@ AR Path="/5F2A17BC/5F296639" Ref="C14"  Part="1"
 AR Path="/5F2A17E4/5F296639" Ref="C20"  Part="1" 
 AR Path="/5F2A1814/5F296639" Ref="C26"  Part="1" 
 AR Path="/5FCA497B/5F296639" Ref="C2"  Part="1" 
-F 0 "C2" H 9315 3096 50  0000 L CNN
+AR Path="/5FD9515D/5F296639" Ref="C8"  Part="1" 
+AR Path="/5FD951C9/5F296639" Ref="C14"  Part="1" 
+AR Path="/5FD9521A/5F296639" Ref="C20"  Part="1" 
+AR Path="/5FD9521C/5F296639" Ref="C26"  Part="1" 
+AR Path="/5FD9521E/5F296639" Ref="C32"  Part="1" 
+F 0 "C20" H 9315 3096 50  0000 L CNN
 F 1 "100nF" H 9315 3005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9238 2900 50  0001 C CNN
 F 3 "~" H 9200 3050 50  0001 C CNN
@@ -85,7 +90,12 @@ AR Path="/5F2A17BC/5F29663F" Ref="#PWR0102"  Part="1"
 AR Path="/5F2A17E4/5F29663F" Ref="#PWR0103"  Part="1" 
 AR Path="/5F2A1814/5F29663F" Ref="#PWR0104"  Part="1" 
 AR Path="/5FCA497B/5F29663F" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 9400 2850 50  0001 C CNN
+AR Path="/5FD9515D/5F29663F" Ref="#PWR0102"  Part="1" 
+AR Path="/5FD951C9/5F29663F" Ref="#PWR0103"  Part="1" 
+AR Path="/5FD9521A/5F29663F" Ref="#PWR0104"  Part="1" 
+AR Path="/5FD9521C/5F29663F" Ref="#PWR0105"  Part="1" 
+AR Path="/5FD9521E/5F29663F" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 9400 2850 50  0001 C CNN
 F 1 "GND" H 9405 2927 50  0000 C CNN
 F 2 "" H 9400 3100 50  0001 C CNN
 F 3 "" H 9400 3100 50  0001 C CNN
@@ -107,7 +117,12 @@ AR Path="/5F2A17BC/5F296649" Ref="C15"  Part="1"
 AR Path="/5F2A17E4/5F296649" Ref="C21"  Part="1" 
 AR Path="/5F2A1814/5F296649" Ref="C27"  Part="1" 
 AR Path="/5FCA497B/5F296649" Ref="C3"  Part="1" 
-F 0 "C3" H 9465 3696 50  0000 L CNN
+AR Path="/5FD9515D/5F296649" Ref="C9"  Part="1" 
+AR Path="/5FD951C9/5F296649" Ref="C15"  Part="1" 
+AR Path="/5FD9521A/5F296649" Ref="C21"  Part="1" 
+AR Path="/5FD9521C/5F296649" Ref="C27"  Part="1" 
+AR Path="/5FD9521E/5F296649" Ref="C33"  Part="1" 
+F 0 "C21" H 9465 3696 50  0000 L CNN
 F 1 "100nF" H 9465 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9388 3500 50  0001 C CNN
 F 3 "~" H 9350 3650 50  0001 C CNN
@@ -126,7 +141,12 @@ AR Path="/5F2A17BC/5F296650" Ref="C18"  Part="1"
 AR Path="/5F2A17E4/5F296650" Ref="C24"  Part="1" 
 AR Path="/5F2A1814/5F296650" Ref="C30"  Part="1" 
 AR Path="/5FCA497B/5F296650" Ref="C6"  Part="1" 
-F 0 "C6" H 10865 3696 50  0000 L CNN
+AR Path="/5FD9515D/5F296650" Ref="C12"  Part="1" 
+AR Path="/5FD951C9/5F296650" Ref="C18"  Part="1" 
+AR Path="/5FD9521A/5F296650" Ref="C24"  Part="1" 
+AR Path="/5FD9521C/5F296650" Ref="C30"  Part="1" 
+AR Path="/5FD9521E/5F296650" Ref="C36"  Part="1" 
+F 0 "C24" H 10865 3696 50  0000 L CNN
 F 1 "100nF" H 10865 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10788 3500 50  0001 C CNN
 F 3 "~" H 10750 3650 50  0001 C CNN
@@ -145,7 +165,12 @@ AR Path="/5F2A17BC/5F296657" Ref="C17"  Part="1"
 AR Path="/5F2A17E4/5F296657" Ref="C23"  Part="1" 
 AR Path="/5F2A1814/5F296657" Ref="C29"  Part="1" 
 AR Path="/5FCA497B/5F296657" Ref="C5"  Part="1" 
-F 0 "C5" H 10415 3696 50  0000 L CNN
+AR Path="/5FD9515D/5F296657" Ref="C11"  Part="1" 
+AR Path="/5FD951C9/5F296657" Ref="C17"  Part="1" 
+AR Path="/5FD9521A/5F296657" Ref="C23"  Part="1" 
+AR Path="/5FD9521C/5F296657" Ref="C29"  Part="1" 
+AR Path="/5FD9521E/5F296657" Ref="C35"  Part="1" 
+F 0 "C23" H 10415 3696 50  0000 L CNN
 F 1 "4.7uF" H 10415 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 10338 3500 50  0001 C CNN
 F 3 "~" H 10300 3650 50  0001 C CNN
@@ -164,7 +189,12 @@ AR Path="/5F2A17BC/5F29665E" Ref="C16"  Part="1"
 AR Path="/5F2A17E4/5F29665E" Ref="C22"  Part="1" 
 AR Path="/5F2A1814/5F29665E" Ref="C28"  Part="1" 
 AR Path="/5FCA497B/5F29665E" Ref="C4"  Part="1" 
-F 0 "C4" H 9915 3696 50  0000 L CNN
+AR Path="/5FD9515D/5F29665E" Ref="C10"  Part="1" 
+AR Path="/5FD951C9/5F29665E" Ref="C16"  Part="1" 
+AR Path="/5FD9521A/5F29665E" Ref="C22"  Part="1" 
+AR Path="/5FD9521C/5F29665E" Ref="C28"  Part="1" 
+AR Path="/5FD9521E/5F29665E" Ref="C34"  Part="1" 
+F 0 "C22" H 9915 3696 50  0000 L CNN
 F 1 "4.7uF" H 9915 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 9838 3500 50  0001 C CNN
 F 3 "~" H 9800 3650 50  0001 C CNN
@@ -208,10 +238,16 @@ AR Path="/5F2A17BC/5F296688" Ref="U3"  Part="1"
 AR Path="/5F2A17E4/5F296688" Ref="U4"  Part="1" 
 AR Path="/5F2A1814/5F296688" Ref="U5"  Part="1" 
 AR Path="/5FCA497B/5F296688" Ref="U1"  Part="1" 
-F 0 "U1" H 8100 4400 50  0000 C CNN
+AR Path="/5FD9515D/5F296688" Ref="U2"  Part="1" 
+AR Path="/5FD951C9/5F296688" Ref="U3"  Part="1" 
+AR Path="/5FD9521A/5F296688" Ref="U4"  Part="1" 
+AR Path="/5FD9521C/5F296688" Ref="U5"  Part="1" 
+AR Path="/5FD9521E/5F296688" Ref="U6"  Part="1" 
+F 0 "U4" H 8100 4400 50  0000 C CNN
 F 1 "eMMC_5.1_BGA153" V 8450 3700 50  0000 C CNN
 F 2 "Package_BGA_eMMC:eMMC-FBGA-153" H 8450 3700 50  0001 C CNN
 F 3 "" H 8450 3700 50  0001 C CNN
+F 4 "C391256" H 8450 3650 50  0001 C CNN "LCSC"
 	1    8450 3650
 	1    0    0    -1  
 $EndComp
@@ -226,7 +262,12 @@ AR Path="/5F2A17BC/5F29668E" Ref="R3"  Part="1"
 AR Path="/5F2A17E4/5F29668E" Ref="R4"  Part="1" 
 AR Path="/5F2A1814/5F29668E" Ref="R5"  Part="1" 
 AR Path="/5FCA497B/5F29668E" Ref="R11"  Part="1" 
-F 0 "R11" H 4470 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F29668E" Ref="R33"  Part="1" 
+AR Path="/5FD951C9/5F29668E" Ref="R55"  Part="1" 
+AR Path="/5FD9521A/5F29668E" Ref="R77"  Part="1" 
+AR Path="/5FD9521C/5F29668E" Ref="R99"  Part="1" 
+AR Path="/5FD9521E/5F29668E" Ref="R121"  Part="1" 
+F 0 "R77" H 4470 2896 50  0000 L CNN
 F 1 "10kR" H 4470 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4330 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 4400 2850 50  0001 C CNN
@@ -245,7 +286,12 @@ AR Path="/5F2A17BC/5F29669D" Ref="C13"  Part="1"
 AR Path="/5F2A17E4/5F29669D" Ref="C19"  Part="1" 
 AR Path="/5F2A1814/5F29669D" Ref="C25"  Part="1" 
 AR Path="/5FCA497B/5F29669D" Ref="C1"  Part="1" 
-F 0 "C1" H 4515 4296 50  0000 L CNN
+AR Path="/5FD9515D/5F29669D" Ref="C7"  Part="1" 
+AR Path="/5FD951C9/5F29669D" Ref="C13"  Part="1" 
+AR Path="/5FD9521A/5F29669D" Ref="C19"  Part="1" 
+AR Path="/5FD9521C/5F29669D" Ref="C25"  Part="1" 
+AR Path="/5FD9521E/5F29669D" Ref="C31"  Part="1" 
+F 0 "C19" H 4515 4296 50  0000 L CNN
 F 1 "100nF" H 4515 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 4100 50  0001 C CNN
 F 3 "~" H 4400 4250 50  0001 C CNN
@@ -272,7 +318,12 @@ AR Path="/5F2A1796/5F2F52DE" Ref="R23"  Part="1"
 AR Path="/5F2A17BC/5F2F52DE" Ref="R32"  Part="1" 
 AR Path="/5F2A17E4/5F2F52DE" Ref="R41"  Part="1" 
 AR Path="/5FCA497B/5F2F52DE" Ref="R20"  Part="1" 
-F 0 "R20" H 7620 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F2F52DE" Ref="R42"  Part="1" 
+AR Path="/5FD951C9/5F2F52DE" Ref="R64"  Part="1" 
+AR Path="/5FD9521A/5F2F52DE" Ref="R86"  Part="1" 
+AR Path="/5FD9521C/5F2F52DE" Ref="R108"  Part="1" 
+AR Path="/5FD9521E/5F2F52DE" Ref="R130"  Part="1" 
+F 0 "R86" H 7620 2896 50  0000 L CNN
 F 1 "10kR" H 7620 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7480 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 7550 2850 50  0001 C CNN
@@ -294,7 +345,12 @@ AR Path="/5F2A1796/5F2F7AC9" Ref="R22"  Part="1"
 AR Path="/5F2A17BC/5F2F7AC9" Ref="R31"  Part="1" 
 AR Path="/5F2A17E4/5F2F7AC9" Ref="R40"  Part="1" 
 AR Path="/5FCA497B/5F2F7AC9" Ref="R19"  Part="1" 
-F 0 "R19" H 7270 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F2F7AC9" Ref="R41"  Part="1" 
+AR Path="/5FD951C9/5F2F7AC9" Ref="R63"  Part="1" 
+AR Path="/5FD9521A/5F2F7AC9" Ref="R85"  Part="1" 
+AR Path="/5FD9521C/5F2F7AC9" Ref="R107"  Part="1" 
+AR Path="/5FD9521E/5F2F7AC9" Ref="R129"  Part="1" 
+F 0 "R85" H 7270 2896 50  0000 L CNN
 F 1 "10kR" H 7270 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 7200 2850 50  0001 C CNN
@@ -321,7 +377,12 @@ AR Path="/5F2A1796/5F300568" Ref="R21"  Part="1"
 AR Path="/5F2A17BC/5F300568" Ref="R30"  Part="1" 
 AR Path="/5F2A17E4/5F300568" Ref="R39"  Part="1" 
 AR Path="/5FCA497B/5F300568" Ref="R18"  Part="1" 
-F 0 "R18" H 6920 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F300568" Ref="R40"  Part="1" 
+AR Path="/5FD951C9/5F300568" Ref="R62"  Part="1" 
+AR Path="/5FD9521A/5F300568" Ref="R84"  Part="1" 
+AR Path="/5FD9521C/5F300568" Ref="R106"  Part="1" 
+AR Path="/5FD9521E/5F300568" Ref="R128"  Part="1" 
+F 0 "R84" H 6920 2896 50  0000 L CNN
 F 1 "10kR" H 6920 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 6850 2850 50  0001 C CNN
@@ -348,7 +409,12 @@ AR Path="/5F2A1796/5F30507A" Ref="R20"  Part="1"
 AR Path="/5F2A17BC/5F30507A" Ref="R29"  Part="1" 
 AR Path="/5F2A17E4/5F30507A" Ref="R38"  Part="1" 
 AR Path="/5FCA497B/5F30507A" Ref="R17"  Part="1" 
-F 0 "R17" H 6570 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F30507A" Ref="R39"  Part="1" 
+AR Path="/5FD951C9/5F30507A" Ref="R61"  Part="1" 
+AR Path="/5FD9521A/5F30507A" Ref="R83"  Part="1" 
+AR Path="/5FD9521C/5F30507A" Ref="R105"  Part="1" 
+AR Path="/5FD9521E/5F30507A" Ref="R127"  Part="1" 
+F 0 "R83" H 6570 2896 50  0000 L CNN
 F 1 "10kR" H 6570 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 6500 2850 50  0001 C CNN
@@ -375,7 +441,12 @@ AR Path="/5F2A1796/5F30806D" Ref="R19"  Part="1"
 AR Path="/5F2A17BC/5F30806D" Ref="R28"  Part="1" 
 AR Path="/5F2A17E4/5F30806D" Ref="R37"  Part="1" 
 AR Path="/5FCA497B/5F30806D" Ref="R16"  Part="1" 
-F 0 "R16" H 6220 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F30806D" Ref="R38"  Part="1" 
+AR Path="/5FD951C9/5F30806D" Ref="R60"  Part="1" 
+AR Path="/5FD9521A/5F30806D" Ref="R82"  Part="1" 
+AR Path="/5FD9521C/5F30806D" Ref="R104"  Part="1" 
+AR Path="/5FD9521E/5F30806D" Ref="R126"  Part="1" 
+F 0 "R82" H 6220 2896 50  0000 L CNN
 F 1 "10kR" H 6220 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6080 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 6150 2850 50  0001 C CNN
@@ -395,7 +466,12 @@ AR Path="/5F2A1796/5F309877" Ref="R18"  Part="1"
 AR Path="/5F2A17BC/5F309877" Ref="R27"  Part="1" 
 AR Path="/5F2A17E4/5F309877" Ref="R36"  Part="1" 
 AR Path="/5FCA497B/5F309877" Ref="R15"  Part="1" 
-F 0 "R15" H 5870 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F309877" Ref="R37"  Part="1" 
+AR Path="/5FD951C9/5F309877" Ref="R59"  Part="1" 
+AR Path="/5FD9521A/5F309877" Ref="R81"  Part="1" 
+AR Path="/5FD9521C/5F309877" Ref="R103"  Part="1" 
+AR Path="/5FD9521E/5F309877" Ref="R125"  Part="1" 
+F 0 "R81" H 5870 2896 50  0000 L CNN
 F 1 "10kR" H 5870 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5730 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 5800 2850 50  0001 C CNN
@@ -415,7 +491,12 @@ AR Path="/5F2A1796/5F30B2C8" Ref="R17"  Part="1"
 AR Path="/5F2A17BC/5F30B2C8" Ref="R26"  Part="1" 
 AR Path="/5F2A17E4/5F30B2C8" Ref="R35"  Part="1" 
 AR Path="/5FCA497B/5F30B2C8" Ref="R14"  Part="1" 
-F 0 "R14" H 5520 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F30B2C8" Ref="R36"  Part="1" 
+AR Path="/5FD951C9/5F30B2C8" Ref="R58"  Part="1" 
+AR Path="/5FD9521A/5F30B2C8" Ref="R80"  Part="1" 
+AR Path="/5FD9521C/5F30B2C8" Ref="R102"  Part="1" 
+AR Path="/5FD9521E/5F30B2C8" Ref="R124"  Part="1" 
+F 0 "R80" H 5520 2896 50  0000 L CNN
 F 1 "10kR" H 5520 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5380 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 5450 2850 50  0001 C CNN
@@ -435,7 +516,12 @@ AR Path="/5F2A1796/5F30CF58" Ref="R16"  Part="1"
 AR Path="/5F2A17BC/5F30CF58" Ref="R25"  Part="1" 
 AR Path="/5F2A17E4/5F30CF58" Ref="R34"  Part="1" 
 AR Path="/5FCA497B/5F30CF58" Ref="R13"  Part="1" 
-F 0 "R13" H 5170 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F30CF58" Ref="R35"  Part="1" 
+AR Path="/5FD951C9/5F30CF58" Ref="R57"  Part="1" 
+AR Path="/5FD9521A/5F30CF58" Ref="R79"  Part="1" 
+AR Path="/5FD9521C/5F30CF58" Ref="R101"  Part="1" 
+AR Path="/5FD9521E/5F30CF58" Ref="R123"  Part="1" 
+F 0 "R79" H 5170 2896 50  0000 L CNN
 F 1 "10kR" H 5170 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5030 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 5100 2850 50  0001 C CNN
@@ -471,7 +557,12 @@ AR Path="/5F2A1796/5F316552" Ref="R15"  Part="1"
 AR Path="/5F2A17BC/5F316552" Ref="R24"  Part="1" 
 AR Path="/5F2A17E4/5F316552" Ref="R33"  Part="1" 
 AR Path="/5FCA497B/5F316552" Ref="R12"  Part="1" 
-F 0 "R12" H 4820 2896 50  0000 L CNN
+AR Path="/5FD9515D/5F316552" Ref="R34"  Part="1" 
+AR Path="/5FD951C9/5F316552" Ref="R56"  Part="1" 
+AR Path="/5FD9521A/5F316552" Ref="R78"  Part="1" 
+AR Path="/5FD9521C/5F316552" Ref="R100"  Part="1" 
+AR Path="/5FD9521E/5F316552" Ref="R122"  Part="1" 
+F 0 "R78" H 4820 2896 50  0000 L CNN
 F 1 "10kR" H 4820 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 2850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 4750 2850 50  0001 C CNN
@@ -517,7 +608,12 @@ AR Path="/5F2A17BC/5F33CC2C" Ref="R77"  Part="1"
 AR Path="/5F2A17E4/5F33CC2C" Ref="R87"  Part="1" 
 AR Path="/5F2A1814/5F33CC2C" Ref="R97"  Part="1" 
 AR Path="/5FCA497B/5F33CC2C" Ref="R7"  Part="1" 
-F 0 "R7" V 3793 3250 50  0000 C CNN
+AR Path="/5FD9515D/5F33CC2C" Ref="R29"  Part="1" 
+AR Path="/5FD951C9/5F33CC2C" Ref="R51"  Part="1" 
+AR Path="/5FD9521A/5F33CC2C" Ref="R73"  Part="1" 
+AR Path="/5FD9521C/5F33CC2C" Ref="R95"  Part="1" 
+AR Path="/5FD9521E/5F33CC2C" Ref="R117"  Part="1" 
+F 0 "R73" V 3793 3250 50  0000 C CNN
 F 1 "33R" V 3884 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 3250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 4000 3250 50  0001 C CNN
@@ -535,7 +631,12 @@ AR Path="/5F2A17BC/5F33D54D" Ref="R74"  Part="1"
 AR Path="/5F2A17E4/5F33D54D" Ref="R84"  Part="1" 
 AR Path="/5F2A1814/5F33D54D" Ref="R94"  Part="1" 
 AR Path="/5FCA497B/5F33D54D" Ref="R4"  Part="1" 
-F 0 "R4" V 3543 3350 50  0000 C CNN
+AR Path="/5FD9515D/5F33D54D" Ref="R26"  Part="1" 
+AR Path="/5FD951C9/5F33D54D" Ref="R48"  Part="1" 
+AR Path="/5FD9521A/5F33D54D" Ref="R70"  Part="1" 
+AR Path="/5FD9521C/5F33D54D" Ref="R92"  Part="1" 
+AR Path="/5FD9521E/5F33D54D" Ref="R114"  Part="1" 
+F 0 "R70" V 3543 3350 50  0000 C CNN
 F 1 "33R" V 3634 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3680 3350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 3750 3350 50  0001 C CNN
@@ -553,7 +654,12 @@ AR Path="/5F2A17BC/5F344865" Ref="R71"  Part="1"
 AR Path="/5F2A17E4/5F344865" Ref="R81"  Part="1" 
 AR Path="/5F2A1814/5F344865" Ref="R91"  Part="1" 
 AR Path="/5FCA497B/5F344865" Ref="R1"  Part="1" 
-F 0 "R1" V 3293 3450 50  0000 C CNN
+AR Path="/5FD9515D/5F344865" Ref="R23"  Part="1" 
+AR Path="/5FD951C9/5F344865" Ref="R45"  Part="1" 
+AR Path="/5FD9521A/5F344865" Ref="R67"  Part="1" 
+AR Path="/5FD9521C/5F344865" Ref="R89"  Part="1" 
+AR Path="/5FD9521E/5F344865" Ref="R111"  Part="1" 
+F 0 "R67" V 3293 3450 50  0000 C CNN
 F 1 "33R" V 3384 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 3450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 3500 3450 50  0001 C CNN
@@ -571,7 +677,12 @@ AR Path="/5F2A17BC/5F347BE6" Ref="R78"  Part="1"
 AR Path="/5F2A17E4/5F347BE6" Ref="R88"  Part="1" 
 AR Path="/5F2A1814/5F347BE6" Ref="R98"  Part="1" 
 AR Path="/5FCA497B/5F347BE6" Ref="R8"  Part="1" 
-F 0 "R8" V 3793 3550 50  0000 C CNN
+AR Path="/5FD9515D/5F347BE6" Ref="R30"  Part="1" 
+AR Path="/5FD951C9/5F347BE6" Ref="R52"  Part="1" 
+AR Path="/5FD9521A/5F347BE6" Ref="R74"  Part="1" 
+AR Path="/5FD9521C/5F347BE6" Ref="R96"  Part="1" 
+AR Path="/5FD9521E/5F347BE6" Ref="R118"  Part="1" 
+F 0 "R74" V 3793 3550 50  0000 C CNN
 F 1 "33R" V 3884 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 3550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 4000 3550 50  0001 C CNN
@@ -589,7 +700,12 @@ AR Path="/5F2A17BC/5F347BED" Ref="R75"  Part="1"
 AR Path="/5F2A17E4/5F347BED" Ref="R85"  Part="1" 
 AR Path="/5F2A1814/5F347BED" Ref="R95"  Part="1" 
 AR Path="/5FCA497B/5F347BED" Ref="R5"  Part="1" 
-F 0 "R5" V 3543 3650 50  0000 C CNN
+AR Path="/5FD9515D/5F347BED" Ref="R27"  Part="1" 
+AR Path="/5FD951C9/5F347BED" Ref="R49"  Part="1" 
+AR Path="/5FD9521A/5F347BED" Ref="R71"  Part="1" 
+AR Path="/5FD9521C/5F347BED" Ref="R93"  Part="1" 
+AR Path="/5FD9521E/5F347BED" Ref="R115"  Part="1" 
+F 0 "R71" V 3543 3650 50  0000 C CNN
 F 1 "33R" V 3634 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3680 3650 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 3750 3650 50  0001 C CNN
@@ -607,7 +723,12 @@ AR Path="/5F2A17BC/5F347BF4" Ref="R72"  Part="1"
 AR Path="/5F2A17E4/5F347BF4" Ref="R82"  Part="1" 
 AR Path="/5F2A1814/5F347BF4" Ref="R92"  Part="1" 
 AR Path="/5FCA497B/5F347BF4" Ref="R2"  Part="1" 
-F 0 "R2" V 3293 3750 50  0000 C CNN
+AR Path="/5FD9515D/5F347BF4" Ref="R24"  Part="1" 
+AR Path="/5FD951C9/5F347BF4" Ref="R46"  Part="1" 
+AR Path="/5FD9521A/5F347BF4" Ref="R68"  Part="1" 
+AR Path="/5FD9521C/5F347BF4" Ref="R90"  Part="1" 
+AR Path="/5FD9521E/5F347BF4" Ref="R112"  Part="1" 
+F 0 "R68" V 3293 3750 50  0000 C CNN
 F 1 "33R" V 3384 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 3750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 3500 3750 50  0001 C CNN
@@ -625,7 +746,12 @@ AR Path="/5F2A17BC/5F34A41A" Ref="R79"  Part="1"
 AR Path="/5F2A17E4/5F34A41A" Ref="R89"  Part="1" 
 AR Path="/5F2A1814/5F34A41A" Ref="R99"  Part="1" 
 AR Path="/5FCA497B/5F34A41A" Ref="R9"  Part="1" 
-F 0 "R9" V 3793 3850 50  0000 C CNN
+AR Path="/5FD9515D/5F34A41A" Ref="R31"  Part="1" 
+AR Path="/5FD951C9/5F34A41A" Ref="R53"  Part="1" 
+AR Path="/5FD9521A/5F34A41A" Ref="R75"  Part="1" 
+AR Path="/5FD9521C/5F34A41A" Ref="R97"  Part="1" 
+AR Path="/5FD9521E/5F34A41A" Ref="R119"  Part="1" 
+F 0 "R75" V 3793 3850 50  0000 C CNN
 F 1 "33R" V 3884 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 3850 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 4000 3850 50  0001 C CNN
@@ -643,7 +769,12 @@ AR Path="/5F2A17BC/5F34A421" Ref="R76"  Part="1"
 AR Path="/5F2A17E4/5F34A421" Ref="R86"  Part="1" 
 AR Path="/5F2A1814/5F34A421" Ref="R96"  Part="1" 
 AR Path="/5FCA497B/5F34A421" Ref="R6"  Part="1" 
-F 0 "R6" V 3543 3950 50  0000 C CNN
+AR Path="/5FD9515D/5F34A421" Ref="R28"  Part="1" 
+AR Path="/5FD951C9/5F34A421" Ref="R50"  Part="1" 
+AR Path="/5FD9521A/5F34A421" Ref="R72"  Part="1" 
+AR Path="/5FD9521C/5F34A421" Ref="R94"  Part="1" 
+AR Path="/5FD9521E/5F34A421" Ref="R116"  Part="1" 
+F 0 "R72" V 3543 3950 50  0000 C CNN
 F 1 "33R" V 3634 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3680 3950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 3750 3950 50  0001 C CNN
@@ -661,7 +792,12 @@ AR Path="/5F2A17BC/5F34A428" Ref="R73"  Part="1"
 AR Path="/5F2A17E4/5F34A428" Ref="R83"  Part="1" 
 AR Path="/5F2A1814/5F34A428" Ref="R93"  Part="1" 
 AR Path="/5FCA497B/5F34A428" Ref="R3"  Part="1" 
-F 0 "R3" V 3293 4150 50  0000 C CNN
+AR Path="/5FD9515D/5F34A428" Ref="R25"  Part="1" 
+AR Path="/5FD951C9/5F34A428" Ref="R47"  Part="1" 
+AR Path="/5FD9521A/5F34A428" Ref="R69"  Part="1" 
+AR Path="/5FD9521C/5F34A428" Ref="R91"  Part="1" 
+AR Path="/5FD9521E/5F34A428" Ref="R113"  Part="1" 
+F 0 "R69" V 3293 4150 50  0000 C CNN
 F 1 "33R" V 3384 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 4150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 3500 4150 50  0001 C CNN
@@ -679,7 +815,12 @@ AR Path="/5F2A17BC/5F34F588" Ref="R80"  Part="1"
 AR Path="/5F2A17E4/5F34F588" Ref="R90"  Part="1" 
 AR Path="/5F2A1814/5F34F588" Ref="R100"  Part="1" 
 AR Path="/5FCA497B/5F34F588" Ref="R10"  Part="1" 
-F 0 "R10" V 3793 4250 50  0000 C CNN
+AR Path="/5FD9515D/5F34F588" Ref="R32"  Part="1" 
+AR Path="/5FD951C9/5F34F588" Ref="R54"  Part="1" 
+AR Path="/5FD9521A/5F34F588" Ref="R76"  Part="1" 
+AR Path="/5FD9521C/5F34F588" Ref="R98"  Part="1" 
+AR Path="/5FD9521E/5F34F588" Ref="R120"  Part="1" 
+F 0 "R76" V 3793 4250 50  0000 C CNN
 F 1 "33R" V 3884 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 3930 4250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF330JTCE_C25105.pdf" H 4000 4250 50  0001 C CNN
@@ -783,12 +924,8 @@ Text Label 7750 3950 0    50   ~ 0
 D7
 Wire Wire Line
 	9000 3650 9150 3650
-Wire Wire Line
-	9000 3750 9150 3750
 Text Label 9150 3550 2    50   ~ 0
 D6
-Text Label 9150 3750 2    50   ~ 0
-D7
 Wire Wire Line
 	9000 3550 9150 3550
 Text Label 9150 3650 2    50   ~ 0
@@ -804,7 +941,12 @@ AR Path="/5F2A17BC/5F42A347" Ref="R103"  Part="1"
 AR Path="/5F2A17E4/5F42A347" Ref="R104"  Part="1" 
 AR Path="/5F2A1814/5F42A347" Ref="R105"  Part="1" 
 AR Path="/5FCA497B/5F42A347" Ref="R21"  Part="1" 
-F 0 "R21" V 9407 4250 50  0000 C CNN
+AR Path="/5FD9515D/5F42A347" Ref="R43"  Part="1" 
+AR Path="/5FD951C9/5F42A347" Ref="R65"  Part="1" 
+AR Path="/5FD9521A/5F42A347" Ref="R87"  Part="1" 
+AR Path="/5FD9521C/5F42A347" Ref="R109"  Part="1" 
+AR Path="/5FD9521E/5F42A347" Ref="R131"  Part="1" 
+F 0 "R87" V 9407 4250 50  0000 C CNN
 F 1 "10kR" V 9316 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9130 4250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9200 4250 50  0001 C CNN
@@ -827,7 +969,12 @@ U 1 1 5FCABCE8
 P 1550 3650
 AR Path="/5FCABCE8" Ref="J?"  Part="1" 
 AR Path="/5FCA497B/5FCABCE8" Ref="J1"  Part="1" 
-F 0 "J1" H 1550 4315 50  0000 C CNN
+AR Path="/5FD9515D/5FCABCE8" Ref="J2"  Part="1" 
+AR Path="/5FD951C9/5FCABCE8" Ref="J3"  Part="1" 
+AR Path="/5FD9521A/5FCABCE8" Ref="J4"  Part="1" 
+AR Path="/5FD9521C/5FCABCE8" Ref="J5"  Part="1" 
+AR Path="/5FD9521E/5FCABCE8" Ref="J6"  Part="1" 
+F 0 "J4" H 1550 4315 50  0000 C CNN
 F 1 "SD_Card" H 1550 4224 50  0000 C CNN
 F 2 "Connector_PCB_Edge_SD:SD" H 1550 3650 50  0001 C CNN
 F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 1550 3650 50  0001 C CNN
@@ -877,10 +1024,16 @@ Wire Wire Line
 	10300 2400 10300 3450
 Connection ~ 10300 3450
 $Comp
-L Device:R R?
+L Device:R R22
 U 1 1 5FD338E7
 P 10050 3450
-F 0 "R?" V 9843 3450 50  0000 C CNN
+AR Path="/5FCA497B/5FD338E7" Ref="R22"  Part="1" 
+AR Path="/5FD9515D/5FD338E7" Ref="R44"  Part="1" 
+AR Path="/5FD951C9/5FD338E7" Ref="R66"  Part="1" 
+AR Path="/5FD9521A/5FD338E7" Ref="R88"  Part="1" 
+AR Path="/5FD9521C/5FD338E7" Ref="R110"  Part="1" 
+AR Path="/5FD9521E/5FD338E7" Ref="R132"  Part="1" 
+F 0 "R88" V 9843 3450 50  0000 C CNN
 F 1 "0R" V 9934 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 3450 50  0001 C CNN
 F 3 "~" H 10050 3450 50  0001 C CNN
@@ -892,4 +1045,514 @@ Wire Wire Line
 	10200 3450 10300 3450
 Wire Wire Line
 	9900 3450 9800 3450
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5FD5A77C
+P 8400 2200
+AR Path="/5FCA497B/5FD5A77C" Ref="H5"  Part="1" 
+AR Path="/5FD9515D/5FD5A77C" Ref="H35"  Part="1" 
+AR Path="/5FD951C9/5FD5A77C" Ref="H65"  Part="1" 
+AR Path="/5FD9521A/5FD5A77C" Ref="H95"  Part="1" 
+AR Path="/5FD9521C/5FD5A77C" Ref="H125"  Part="1" 
+AR Path="/5FD9521E/5FD5A77C" Ref="H155"  Part="1" 
+F 0 "H95" H 8500 2246 50  0000 L CNN
+F 1 "MountingHole" H 8500 2155 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8400 2200 50  0001 C CNN
+F 3 "~" H 8400 2200 50  0001 C CNN
+	1    8400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5FD5FF91
+P 9100 2200
+AR Path="/5FCA497B/5FD5FF91" Ref="H10"  Part="1" 
+AR Path="/5FD9515D/5FD5FF91" Ref="H45"  Part="1" 
+AR Path="/5FD951C9/5FD5FF91" Ref="H75"  Part="1" 
+AR Path="/5FD9521A/5FD5FF91" Ref="H105"  Part="1" 
+AR Path="/5FD9521C/5FD5FF91" Ref="H135"  Part="1" 
+AR Path="/5FD9521E/5FD5FF91" Ref="H165"  Part="1" 
+F 0 "H105" H 9200 2246 50  0000 L CNN
+F 1 "MountingHole" H 9200 2155 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9100 2200 50  0001 C CNN
+F 3 "~" H 9100 2200 50  0001 C CNN
+	1    9100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H15
+U 1 1 5FD644E6
+P 9800 2200
+AR Path="/5FCA497B/5FD644E6" Ref="H15"  Part="1" 
+AR Path="/5FD9515D/5FD644E6" Ref="H55"  Part="1" 
+AR Path="/5FD951C9/5FD644E6" Ref="H85"  Part="1" 
+AR Path="/5FD9521A/5FD644E6" Ref="H115"  Part="1" 
+AR Path="/5FD9521C/5FD644E6" Ref="H145"  Part="1" 
+AR Path="/5FD9521E/5FD644E6" Ref="H175"  Part="1" 
+F 0 "H115" H 9900 2246 50  0000 L CNN
+F 1 "MountingHole" H 9900 2155 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9800 2200 50  0001 C CNN
+F 3 "~" H 9800 2200 50  0001 C CNN
+	1    9800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FD68F67
+P 8400 2000
+AR Path="/5FCA497B/5FD68F67" Ref="H4"  Part="1" 
+AR Path="/5FD9515D/5FD68F67" Ref="H34"  Part="1" 
+AR Path="/5FD951C9/5FD68F67" Ref="H64"  Part="1" 
+AR Path="/5FD9521A/5FD68F67" Ref="H94"  Part="1" 
+AR Path="/5FD9521C/5FD68F67" Ref="H124"  Part="1" 
+AR Path="/5FD9521E/5FD68F67" Ref="H154"  Part="1" 
+F 0 "H94" H 8500 2046 50  0000 L CNN
+F 1 "MountingHole" H 8500 1955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8400 2000 50  0001 C CNN
+F 3 "~" H 8400 2000 50  0001 C CNN
+	1    8400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5FD68F6D
+P 9100 2000
+AR Path="/5FCA497B/5FD68F6D" Ref="H9"  Part="1" 
+AR Path="/5FD9515D/5FD68F6D" Ref="H44"  Part="1" 
+AR Path="/5FD951C9/5FD68F6D" Ref="H74"  Part="1" 
+AR Path="/5FD9521A/5FD68F6D" Ref="H104"  Part="1" 
+AR Path="/5FD9521C/5FD68F6D" Ref="H134"  Part="1" 
+AR Path="/5FD9521E/5FD68F6D" Ref="H164"  Part="1" 
+F 0 "H104" H 9200 2046 50  0000 L CNN
+F 1 "MountingHole" H 9200 1955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9100 2000 50  0001 C CNN
+F 3 "~" H 9100 2000 50  0001 C CNN
+	1    9100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H14
+U 1 1 5FD68F73
+P 9800 2000
+AR Path="/5FCA497B/5FD68F73" Ref="H14"  Part="1" 
+AR Path="/5FD9515D/5FD68F73" Ref="H54"  Part="1" 
+AR Path="/5FD951C9/5FD68F73" Ref="H84"  Part="1" 
+AR Path="/5FD9521A/5FD68F73" Ref="H114"  Part="1" 
+AR Path="/5FD9521C/5FD68F73" Ref="H144"  Part="1" 
+AR Path="/5FD9521E/5FD68F73" Ref="H174"  Part="1" 
+F 0 "H114" H 9900 2046 50  0000 L CNN
+F 1 "MountingHole" H 9900 1955 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9800 2000 50  0001 C CNN
+F 3 "~" H 9800 2000 50  0001 C CNN
+	1    9800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FD6DA1D
+P 8400 1800
+AR Path="/5FCA497B/5FD6DA1D" Ref="H3"  Part="1" 
+AR Path="/5FD9515D/5FD6DA1D" Ref="H33"  Part="1" 
+AR Path="/5FD951C9/5FD6DA1D" Ref="H63"  Part="1" 
+AR Path="/5FD9521A/5FD6DA1D" Ref="H93"  Part="1" 
+AR Path="/5FD9521C/5FD6DA1D" Ref="H123"  Part="1" 
+AR Path="/5FD9521E/5FD6DA1D" Ref="H153"  Part="1" 
+F 0 "H93" H 8500 1846 50  0000 L CNN
+F 1 "MountingHole" H 8500 1755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8400 1800 50  0001 C CNN
+F 3 "~" H 8400 1800 50  0001 C CNN
+	1    8400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5FD6DA23
+P 9100 1800
+AR Path="/5FCA497B/5FD6DA23" Ref="H8"  Part="1" 
+AR Path="/5FD9515D/5FD6DA23" Ref="H43"  Part="1" 
+AR Path="/5FD951C9/5FD6DA23" Ref="H73"  Part="1" 
+AR Path="/5FD9521A/5FD6DA23" Ref="H103"  Part="1" 
+AR Path="/5FD9521C/5FD6DA23" Ref="H133"  Part="1" 
+AR Path="/5FD9521E/5FD6DA23" Ref="H163"  Part="1" 
+F 0 "H103" H 9200 1846 50  0000 L CNN
+F 1 "MountingHole" H 9200 1755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9100 1800 50  0001 C CNN
+F 3 "~" H 9100 1800 50  0001 C CNN
+	1    9100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 5FD6DA29
+P 9800 1800
+AR Path="/5FCA497B/5FD6DA29" Ref="H13"  Part="1" 
+AR Path="/5FD9515D/5FD6DA29" Ref="H53"  Part="1" 
+AR Path="/5FD951C9/5FD6DA29" Ref="H83"  Part="1" 
+AR Path="/5FD9521A/5FD6DA29" Ref="H113"  Part="1" 
+AR Path="/5FD9521C/5FD6DA29" Ref="H143"  Part="1" 
+AR Path="/5FD9521E/5FD6DA29" Ref="H173"  Part="1" 
+F 0 "H113" H 9900 1846 50  0000 L CNN
+F 1 "MountingHole" H 9900 1755 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9800 1800 50  0001 C CNN
+F 3 "~" H 9800 1800 50  0001 C CNN
+	1    9800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FD722DB
+P 8400 1600
+AR Path="/5FCA497B/5FD722DB" Ref="H2"  Part="1" 
+AR Path="/5FD9515D/5FD722DB" Ref="H32"  Part="1" 
+AR Path="/5FD951C9/5FD722DB" Ref="H62"  Part="1" 
+AR Path="/5FD9521A/5FD722DB" Ref="H92"  Part="1" 
+AR Path="/5FD9521C/5FD722DB" Ref="H122"  Part="1" 
+AR Path="/5FD9521E/5FD722DB" Ref="H152"  Part="1" 
+F 0 "H92" H 8500 1646 50  0000 L CNN
+F 1 "MountingHole" H 8500 1555 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8400 1600 50  0001 C CNN
+F 3 "~" H 8400 1600 50  0001 C CNN
+	1    8400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5FD722E1
+P 9100 1600
+AR Path="/5FCA497B/5FD722E1" Ref="H7"  Part="1" 
+AR Path="/5FD9515D/5FD722E1" Ref="H42"  Part="1" 
+AR Path="/5FD951C9/5FD722E1" Ref="H72"  Part="1" 
+AR Path="/5FD9521A/5FD722E1" Ref="H102"  Part="1" 
+AR Path="/5FD9521C/5FD722E1" Ref="H132"  Part="1" 
+AR Path="/5FD9521E/5FD722E1" Ref="H162"  Part="1" 
+F 0 "H102" H 9200 1646 50  0000 L CNN
+F 1 "MountingHole" H 9200 1555 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9100 1600 50  0001 C CNN
+F 3 "~" H 9100 1600 50  0001 C CNN
+	1    9100 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 5FD722E7
+P 9800 1600
+AR Path="/5FCA497B/5FD722E7" Ref="H12"  Part="1" 
+AR Path="/5FD9515D/5FD722E7" Ref="H52"  Part="1" 
+AR Path="/5FD951C9/5FD722E7" Ref="H82"  Part="1" 
+AR Path="/5FD9521A/5FD722E7" Ref="H112"  Part="1" 
+AR Path="/5FD9521C/5FD722E7" Ref="H142"  Part="1" 
+AR Path="/5FD9521E/5FD722E7" Ref="H172"  Part="1" 
+F 0 "H112" H 9900 1646 50  0000 L CNN
+F 1 "MountingHole" H 9900 1555 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9800 1600 50  0001 C CNN
+F 3 "~" H 9800 1600 50  0001 C CNN
+	1    9800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FD76AAE
+P 8400 1400
+AR Path="/5FCA497B/5FD76AAE" Ref="H1"  Part="1" 
+AR Path="/5FD9515D/5FD76AAE" Ref="H31"  Part="1" 
+AR Path="/5FD951C9/5FD76AAE" Ref="H61"  Part="1" 
+AR Path="/5FD9521A/5FD76AAE" Ref="H91"  Part="1" 
+AR Path="/5FD9521C/5FD76AAE" Ref="H121"  Part="1" 
+AR Path="/5FD9521E/5FD76AAE" Ref="H151"  Part="1" 
+F 0 "H91" H 8500 1446 50  0000 L CNN
+F 1 "MountingHole" H 8500 1355 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8400 1400 50  0001 C CNN
+F 3 "~" H 8400 1400 50  0001 C CNN
+	1    8400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5FD76AB4
+P 9100 1400
+AR Path="/5FCA497B/5FD76AB4" Ref="H6"  Part="1" 
+AR Path="/5FD9515D/5FD76AB4" Ref="H41"  Part="1" 
+AR Path="/5FD951C9/5FD76AB4" Ref="H71"  Part="1" 
+AR Path="/5FD9521A/5FD76AB4" Ref="H101"  Part="1" 
+AR Path="/5FD9521C/5FD76AB4" Ref="H131"  Part="1" 
+AR Path="/5FD9521E/5FD76AB4" Ref="H161"  Part="1" 
+F 0 "H101" H 9200 1446 50  0000 L CNN
+F 1 "MountingHole" H 9200 1355 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9100 1400 50  0001 C CNN
+F 3 "~" H 9100 1400 50  0001 C CNN
+	1    9100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5FD76ABA
+P 9800 1400
+AR Path="/5FCA497B/5FD76ABA" Ref="H11"  Part="1" 
+AR Path="/5FD9515D/5FD76ABA" Ref="H51"  Part="1" 
+AR Path="/5FD951C9/5FD76ABA" Ref="H81"  Part="1" 
+AR Path="/5FD9521A/5FD76ABA" Ref="H111"  Part="1" 
+AR Path="/5FD9521C/5FD76ABA" Ref="H141"  Part="1" 
+AR Path="/5FD9521E/5FD76ABA" Ref="H171"  Part="1" 
+F 0 "H111" H 9900 1446 50  0000 L CNN
+F 1 "MountingHole" H 9900 1355 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9800 1400 50  0001 C CNN
+F 3 "~" H 9800 1400 50  0001 C CNN
+	1    9800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H20
+U 1 1 5FD8689D
+P 8450 5500
+AR Path="/5FCA497B/5FD8689D" Ref="H20"  Part="1" 
+AR Path="/5FD9515D/5FD8689D" Ref="H40"  Part="1" 
+AR Path="/5FD951C9/5FD8689D" Ref="H70"  Part="1" 
+AR Path="/5FD9521A/5FD8689D" Ref="H100"  Part="1" 
+AR Path="/5FD9521C/5FD8689D" Ref="H130"  Part="1" 
+AR Path="/5FD9521E/5FD8689D" Ref="H160"  Part="1" 
+F 0 "H100" H 8550 5546 50  0000 L CNN
+F 1 "MountingHole" H 8550 5455 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 5500 50  0001 C CNN
+F 3 "~" H 8450 5500 50  0001 C CNN
+	1    8450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H25
+U 1 1 5FD868A3
+P 9150 5500
+AR Path="/5FCA497B/5FD868A3" Ref="H25"  Part="1" 
+AR Path="/5FD9515D/5FD868A3" Ref="H50"  Part="1" 
+AR Path="/5FD951C9/5FD868A3" Ref="H80"  Part="1" 
+AR Path="/5FD9521A/5FD868A3" Ref="H110"  Part="1" 
+AR Path="/5FD9521C/5FD868A3" Ref="H140"  Part="1" 
+AR Path="/5FD9521E/5FD868A3" Ref="H170"  Part="1" 
+F 0 "H110" H 9250 5546 50  0000 L CNN
+F 1 "MountingHole" H 9250 5455 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 5500 50  0001 C CNN
+F 3 "~" H 9150 5500 50  0001 C CNN
+	1    9150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H30
+U 1 1 5FD868A9
+P 9850 5500
+AR Path="/5FCA497B/5FD868A9" Ref="H30"  Part="1" 
+AR Path="/5FD9515D/5FD868A9" Ref="H60"  Part="1" 
+AR Path="/5FD951C9/5FD868A9" Ref="H90"  Part="1" 
+AR Path="/5FD9521A/5FD868A9" Ref="H120"  Part="1" 
+AR Path="/5FD9521C/5FD868A9" Ref="H150"  Part="1" 
+AR Path="/5FD9521E/5FD868A9" Ref="H180"  Part="1" 
+F 0 "H120" H 9950 5546 50  0000 L CNN
+F 1 "MountingHole" H 9950 5455 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 5500 50  0001 C CNN
+F 3 "~" H 9850 5500 50  0001 C CNN
+	1    9850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H19
+U 1 1 5FD868AF
+P 8450 5300
+AR Path="/5FCA497B/5FD868AF" Ref="H19"  Part="1" 
+AR Path="/5FD9515D/5FD868AF" Ref="H39"  Part="1" 
+AR Path="/5FD951C9/5FD868AF" Ref="H69"  Part="1" 
+AR Path="/5FD9521A/5FD868AF" Ref="H99"  Part="1" 
+AR Path="/5FD9521C/5FD868AF" Ref="H129"  Part="1" 
+AR Path="/5FD9521E/5FD868AF" Ref="H159"  Part="1" 
+F 0 "H99" H 8550 5346 50  0000 L CNN
+F 1 "MountingHole" H 8550 5255 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 5300 50  0001 C CNN
+F 3 "~" H 8450 5300 50  0001 C CNN
+	1    8450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H24
+U 1 1 5FD868B5
+P 9150 5300
+AR Path="/5FCA497B/5FD868B5" Ref="H24"  Part="1" 
+AR Path="/5FD9515D/5FD868B5" Ref="H49"  Part="1" 
+AR Path="/5FD951C9/5FD868B5" Ref="H79"  Part="1" 
+AR Path="/5FD9521A/5FD868B5" Ref="H109"  Part="1" 
+AR Path="/5FD9521C/5FD868B5" Ref="H139"  Part="1" 
+AR Path="/5FD9521E/5FD868B5" Ref="H169"  Part="1" 
+F 0 "H109" H 9250 5346 50  0000 L CNN
+F 1 "MountingHole" H 9250 5255 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 5300 50  0001 C CNN
+F 3 "~" H 9150 5300 50  0001 C CNN
+	1    9150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H29
+U 1 1 5FD868BB
+P 9850 5300
+AR Path="/5FCA497B/5FD868BB" Ref="H29"  Part="1" 
+AR Path="/5FD9515D/5FD868BB" Ref="H59"  Part="1" 
+AR Path="/5FD951C9/5FD868BB" Ref="H89"  Part="1" 
+AR Path="/5FD9521A/5FD868BB" Ref="H119"  Part="1" 
+AR Path="/5FD9521C/5FD868BB" Ref="H149"  Part="1" 
+AR Path="/5FD9521E/5FD868BB" Ref="H179"  Part="1" 
+F 0 "H119" H 9950 5346 50  0000 L CNN
+F 1 "MountingHole" H 9950 5255 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 5300 50  0001 C CNN
+F 3 "~" H 9850 5300 50  0001 C CNN
+	1    9850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H18
+U 1 1 5FD868C1
+P 8450 5100
+AR Path="/5FCA497B/5FD868C1" Ref="H18"  Part="1" 
+AR Path="/5FD9515D/5FD868C1" Ref="H38"  Part="1" 
+AR Path="/5FD951C9/5FD868C1" Ref="H68"  Part="1" 
+AR Path="/5FD9521A/5FD868C1" Ref="H98"  Part="1" 
+AR Path="/5FD9521C/5FD868C1" Ref="H128"  Part="1" 
+AR Path="/5FD9521E/5FD868C1" Ref="H158"  Part="1" 
+F 0 "H98" H 8550 5146 50  0000 L CNN
+F 1 "MountingHole" H 8550 5055 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 5100 50  0001 C CNN
+F 3 "~" H 8450 5100 50  0001 C CNN
+	1    8450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H23
+U 1 1 5FD868C7
+P 9150 5100
+AR Path="/5FCA497B/5FD868C7" Ref="H23"  Part="1" 
+AR Path="/5FD9515D/5FD868C7" Ref="H48"  Part="1" 
+AR Path="/5FD951C9/5FD868C7" Ref="H78"  Part="1" 
+AR Path="/5FD9521A/5FD868C7" Ref="H108"  Part="1" 
+AR Path="/5FD9521C/5FD868C7" Ref="H138"  Part="1" 
+AR Path="/5FD9521E/5FD868C7" Ref="H168"  Part="1" 
+F 0 "H108" H 9250 5146 50  0000 L CNN
+F 1 "MountingHole" H 9250 5055 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 5100 50  0001 C CNN
+F 3 "~" H 9150 5100 50  0001 C CNN
+	1    9150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H28
+U 1 1 5FD868CD
+P 9850 5100
+AR Path="/5FCA497B/5FD868CD" Ref="H28"  Part="1" 
+AR Path="/5FD9515D/5FD868CD" Ref="H58"  Part="1" 
+AR Path="/5FD951C9/5FD868CD" Ref="H88"  Part="1" 
+AR Path="/5FD9521A/5FD868CD" Ref="H118"  Part="1" 
+AR Path="/5FD9521C/5FD868CD" Ref="H148"  Part="1" 
+AR Path="/5FD9521E/5FD868CD" Ref="H178"  Part="1" 
+F 0 "H118" H 9950 5146 50  0000 L CNN
+F 1 "MountingHole" H 9950 5055 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 5100 50  0001 C CNN
+F 3 "~" H 9850 5100 50  0001 C CNN
+	1    9850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H17
+U 1 1 5FD868D3
+P 8450 4900
+AR Path="/5FCA497B/5FD868D3" Ref="H17"  Part="1" 
+AR Path="/5FD9515D/5FD868D3" Ref="H37"  Part="1" 
+AR Path="/5FD951C9/5FD868D3" Ref="H67"  Part="1" 
+AR Path="/5FD9521A/5FD868D3" Ref="H97"  Part="1" 
+AR Path="/5FD9521C/5FD868D3" Ref="H127"  Part="1" 
+AR Path="/5FD9521E/5FD868D3" Ref="H157"  Part="1" 
+F 0 "H97" H 8550 4946 50  0000 L CNN
+F 1 "MountingHole" H 8550 4855 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 4900 50  0001 C CNN
+F 3 "~" H 8450 4900 50  0001 C CNN
+	1    8450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H22
+U 1 1 5FD868D9
+P 9150 4900
+AR Path="/5FCA497B/5FD868D9" Ref="H22"  Part="1" 
+AR Path="/5FD9515D/5FD868D9" Ref="H47"  Part="1" 
+AR Path="/5FD951C9/5FD868D9" Ref="H77"  Part="1" 
+AR Path="/5FD9521A/5FD868D9" Ref="H107"  Part="1" 
+AR Path="/5FD9521C/5FD868D9" Ref="H137"  Part="1" 
+AR Path="/5FD9521E/5FD868D9" Ref="H167"  Part="1" 
+F 0 "H107" H 9250 4946 50  0000 L CNN
+F 1 "MountingHole" H 9250 4855 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 4900 50  0001 C CNN
+F 3 "~" H 9150 4900 50  0001 C CNN
+	1    9150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H27
+U 1 1 5FD868DF
+P 9850 4900
+AR Path="/5FCA497B/5FD868DF" Ref="H27"  Part="1" 
+AR Path="/5FD9515D/5FD868DF" Ref="H57"  Part="1" 
+AR Path="/5FD951C9/5FD868DF" Ref="H87"  Part="1" 
+AR Path="/5FD9521A/5FD868DF" Ref="H117"  Part="1" 
+AR Path="/5FD9521C/5FD868DF" Ref="H147"  Part="1" 
+AR Path="/5FD9521E/5FD868DF" Ref="H177"  Part="1" 
+F 0 "H117" H 9950 4946 50  0000 L CNN
+F 1 "MountingHole" H 9950 4855 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 4900 50  0001 C CNN
+F 3 "~" H 9850 4900 50  0001 C CNN
+	1    9850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H16
+U 1 1 5FD868E5
+P 8450 4700
+AR Path="/5FCA497B/5FD868E5" Ref="H16"  Part="1" 
+AR Path="/5FD9515D/5FD868E5" Ref="H36"  Part="1" 
+AR Path="/5FD951C9/5FD868E5" Ref="H66"  Part="1" 
+AR Path="/5FD9521A/5FD868E5" Ref="H96"  Part="1" 
+AR Path="/5FD9521C/5FD868E5" Ref="H126"  Part="1" 
+AR Path="/5FD9521E/5FD868E5" Ref="H156"  Part="1" 
+F 0 "H96" H 8550 4746 50  0000 L CNN
+F 1 "MountingHole" H 8550 4655 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 8450 4700 50  0001 C CNN
+F 3 "~" H 8450 4700 50  0001 C CNN
+	1    8450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H21
+U 1 1 5FD868EB
+P 9150 4700
+AR Path="/5FCA497B/5FD868EB" Ref="H21"  Part="1" 
+AR Path="/5FD9515D/5FD868EB" Ref="H46"  Part="1" 
+AR Path="/5FD951C9/5FD868EB" Ref="H76"  Part="1" 
+AR Path="/5FD9521A/5FD868EB" Ref="H106"  Part="1" 
+AR Path="/5FD9521C/5FD868EB" Ref="H136"  Part="1" 
+AR Path="/5FD9521E/5FD868EB" Ref="H166"  Part="1" 
+F 0 "H106" H 9250 4746 50  0000 L CNN
+F 1 "MountingHole" H 9250 4655 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9150 4700 50  0001 C CNN
+F 3 "~" H 9150 4700 50  0001 C CNN
+	1    9150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H26
+U 1 1 5FD868F1
+P 9850 4700
+AR Path="/5FCA497B/5FD868F1" Ref="H26"  Part="1" 
+AR Path="/5FD9515D/5FD868F1" Ref="H56"  Part="1" 
+AR Path="/5FD951C9/5FD868F1" Ref="H86"  Part="1" 
+AR Path="/5FD9521A/5FD868F1" Ref="H116"  Part="1" 
+AR Path="/5FD9521C/5FD868F1" Ref="H146"  Part="1" 
+AR Path="/5FD9521E/5FD868F1" Ref="H176"  Part="1" 
+F 0 "H116" H 9950 4746 50  0000 L CNN
+F 1 "MountingHole" H 9950 4655 50  0000 L CNN
+F 2 "Perforation:Perforation_0.4mm" H 9850 4700 50  0001 C CNN
+F 3 "~" H 9850 4700 50  0001 C CNN
+	1    9850 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
