@@ -180,29 +180,16 @@ Wire Wire Line
 	10750 3500 10750 3450
 Wire Wire Line
 	10750 3450 10300 3450
-Connection ~ 10050 3450
 Wire Wire Line
 	9800 3500 9800 3450
-Connection ~ 9800 3450
-Wire Wire Line
-	9800 3450 10050 3450
 Wire Wire Line
 	10300 3450 10300 3500
-Connection ~ 10300 3450
-Wire Wire Line
-	10300 3450 10050 3450
-Wire Wire Line
-	10050 3850 9800 3850
 Wire Wire Line
 	9350 3850 9350 3800
 Wire Wire Line
-	10050 3850 10300 3850
-Wire Wire Line
 	10750 3850 10750 3800
-Connection ~ 10050 3850
 Wire Wire Line
 	10300 3800 10300 3850
-Connection ~ 10300 3850
 Wire Wire Line
 	10300 3850 10750 3850
 Wire Wire Line
@@ -268,21 +255,9 @@ F 4 "C1525" H 4400 4250 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	8350 4500 8550 4500
-Wire Wire Line
-	8350 2600 8350 2850
-Wire Wire Line
-	8350 2600 8550 2600
-Connection ~ 8350 2600
-Wire Wire Line
-	10050 2600 10050 3450
-Wire Wire Line
-	10050 3850 10050 4500
 Connection ~ 8550 4500
 Wire Wire Line
 	8550 2600 8550 2850
-Connection ~ 8550 2600
-Wire Wire Line
-	8550 2600 10050 2600
 Text Label 2850 2600 0    50   ~ 0
 VDD
 Text Label 2850 4500 0    50   ~ 0
@@ -307,8 +282,6 @@ F 4 "C25744" H 7550 2850 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	7550 2700 7550 2600
-Wire Wire Line
-	7550 2600 8350 2600
 Wire Wire Line
 	7550 3000 7550 3250
 $Comp
@@ -526,8 +499,6 @@ Wire Wire Line
 	4750 4150 7900 4150
 Wire Wire Line
 	4750 3000 4750 4150
-Wire Wire Line
-	10050 4500 9400 4500
 Wire Wire Line
 	4750 2600 4400 2600
 Connection ~ 4750 2600
@@ -880,4 +851,45 @@ Wire Wire Line
 Wire Wire Line
 	2800 3550 2800 3850
 Connection ~ 2800 3850
+Wire Wire Line
+	9800 3850 9800 4500
+Wire Wire Line
+	9800 4500 9400 4500
+Wire Wire Line
+	10300 3850 10300 4500
+Wire Wire Line
+	10300 4500 9800 4500
+Connection ~ 10300 3850
+Connection ~ 9800 4500
+Wire Wire Line
+	8550 2600 9800 2600
+Wire Wire Line
+	9800 2600 9800 3450
+Connection ~ 8550 2600
+Connection ~ 9800 3450
+Wire Wire Line
+	7550 2600 8550 2600
+Wire Wire Line
+	8350 2850 8350 2400
+Wire Wire Line
+	8350 2400 10300 2400
+Wire Wire Line
+	10300 2400 10300 3450
+Connection ~ 10300 3450
+$Comp
+L Device:R R?
+U 1 1 5FD338E7
+P 10050 3450
+F 0 "R?" V 9843 3450 50  0000 C CNN
+F 1 "0R" V 9934 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 3450 50  0001 C CNN
+F 3 "~" H 10050 3450 50  0001 C CNN
+F 4 "C17168" V 10050 3450 50  0001 C CNN "LCSC"
+	1    10050 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10200 3450 10300 3450
+Wire Wire Line
+	9900 3450 9800 3450
 $EndSCHEMATC
