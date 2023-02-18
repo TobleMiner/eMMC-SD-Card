@@ -1,0 +1,330 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid c9760abb-330d-4e3e-87bf-86f6e4ceb880)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (id 0) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (id 1) (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 43.18 35.56 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 00000000-0000-0000-0000-00005fdc5aee)
+    (property "Reference" "H181" (id 0) (at 45.72 34.3916 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 45.72 36.703 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ToolingHole:ToolingHole_JLCSMT" (id 2) (at 43.18 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 43.18 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 120.65 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 00000000-0000-0000-0000-00005fdc62cd)
+    (property "Reference" "H182" (id 0) (at 123.19 85.1916 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 123.19 87.503 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "ToolingHole:ToolingHole_JLCSMT" (id 2) (at 120.65 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 120.65 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (sheet (at 49.53 41.91) (size 12.7 15.24) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005fca497b)
+    (property "Sheet name" "Adapter 1" (id 0) (at 49.53 41.1984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "eMMC-adapter.kicad_sch" (id 1) (at 49.53 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-00005fca497b" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-00005fca497b/b0ae6216-dbc6-42f6-91c6-7d7c07464280"
+      (reference "#PWR0101") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/42f4974a-d175-4a23-b91f-3cf320068b27"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/8bdf100b-473d-42ea-b525-03a017a7ded0"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/bed6737a-e137-438f-993d-435f02fe3a31"
+      (reference "#PWR0104") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/0a55e295-6a60-4255-a4cc-7bc32e036da1"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/0e09178e-6708-4be1-ac03-aa660cffc7f4"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/3c4a8173-f9a3-4de7-9504-06453d024964"
+      (reference "#PWR0107") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/54dc1dff-af5a-4f2a-948d-26fe44c96662"
+      (reference "#PWR0108") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/ab870657-dee1-40f3-89d9-5567e24e86b1"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/a6255fbb-296d-4cf2-9c55-a562f9f108f1"
+      (reference "#PWR0110") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/06762eec-8d82-4652-b32a-a3e8075ad5f3"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/7629a9cd-9e92-426e-9df2-3e9677980bf1"
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/62b58bfc-d20c-41f8-b4c8-127f7f14c7b8"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/8e154008-68ba-4fd2-bc7f-e9a7cebe1ec2"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/e57f8b43-4e36-4706-9de1-8cbff9ce57f4"
+      (reference "#PWR0115") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/936c95fc-2aef-4888-aea2-f7624aa5daca"
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/ef8de462-6202-4f34-ba13-266cba5422b9"
+      (reference "AE1") (unit 1) (value "Antenna_Chip") (footprint "Antenna_antenova:SR4W035")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/466cfe07-bf2d-4cd3-87d3-a0db7b67129c"
+      (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/4b704978-7acc-4ee3-a501-31b2588e1e7e"
+      (reference "C2") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/ede6e67e-75bd-4e3d-b03f-e7c800cb0b86"
+      (reference "C3") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/7598e43f-3a2d-4765-a2e5-50d2683cf3aa"
+      (reference "C4") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/f586c37c-98de-4174-b53d-b7b0b252fb13"
+      (reference "C5") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/b5b7854e-74e9-4db1-9e16-be2493a5eef3"
+      (reference "C6") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/da9bf34b-0c1e-47ab-8638-08177c6581ab"
+      (reference "C7") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/5ec1d026-aa17-41b7-ad52-ff144d28ec5b"
+      (reference "C8") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/4257be0f-c9b5-4a31-a1f2-d8bd5ec13544"
+      (reference "C9") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd76aae"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd722db"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd6da1d"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd68f67"
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd5a77c"
+      (reference "H5") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd76ab4"
+      (reference "H6") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd722e1"
+      (reference "H7") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd6da23"
+      (reference "H8") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd68f6d"
+      (reference "H9") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd5ff91"
+      (reference "H10") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd76aba"
+      (reference "H11") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd722e7"
+      (reference "H12") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd6da29"
+      (reference "H13") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd68f73"
+      (reference "H14") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd644e6"
+      (reference "H15") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868e5"
+      (reference "H16") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868d3"
+      (reference "H17") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868c1"
+      (reference "H18") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868af"
+      (reference "H19") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd8689d"
+      (reference "H20") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868eb"
+      (reference "H21") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868d9"
+      (reference "H22") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868c7"
+      (reference "H23") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868b5"
+      (reference "H24") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868a3"
+      (reference "H25") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868f1"
+      (reference "H26") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868df"
+      (reference "H27") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868cd"
+      (reference "H28") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868bb"
+      (reference "H29") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fd868a9"
+      (reference "H30") (unit 1) (value "MountingHole") (footprint "Perforation:Perforation_0.4mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fdc5aee"
+      (reference "H181") (unit 1) (value "MountingHole") (footprint "ToolingHole:ToolingHole_JLCSMT")
+    )
+    (path "/00000000-0000-0000-0000-00005fdc62cd"
+      (reference "H182") (unit 1) (value "MountingHole") (footprint "ToolingHole:ToolingHole_JLCSMT")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005fcabce8"
+      (reference "J1") (unit 1) (value "SD_Card") (footprint "Connector_PCB_Edge_SD:SD")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/c8c75fb9-ae8d-4a3d-a451-467193911c7f"
+      (reference "J2") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/51e43577-77f0-47f8-80c7-aceecfbe8029"
+      (reference "L1") (unit 1) (value "0R") (footprint "Inductor_SMD:L_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/d6b68e93-89ba-451e-8520-1909c4bdc8d3"
+      (reference "R1") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/de14e9ca-fcf6-4fdf-863f-ca707ca5d64c"
+      (reference "R2") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/f5c234a9-06aa-4a99-9e8f-849e539ef303"
+      (reference "R3") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/32f47cab-5dc6-4f74-8a2a-eeabbe53d3fe"
+      (reference "R4") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/922b3821-762b-4b02-841f-925adc5a0438"
+      (reference "R5") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/99b17063-7421-42f8-96b3-89b8e99d0538"
+      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/00000000-0000-0000-0000-00005f33cc2c"
+      (reference "R7") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/b280a678-1669-4ffe-ae47-bf578d38aaef"
+      (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/b612ea70-8696-4aa4-8002-4211a82b60dd"
+      (reference "R9") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/e1eb668d-0def-4dfb-891f-18baf8de7b9b"
+      (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/d42151f9-64cf-4aa2-8d28-66ee74e6572c"
+      (reference "R11") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/06a8c755-f961-4ca8-9c1a-c2decc568b92"
+      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/6cbeb080-9871-4c40-948f-2b6bfe77f02c"
+      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/822f41d6-b9dc-4e64-a072-16a7c0b73267"
+      (reference "R14") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/b3b673ca-e606-4078-9cab-7c31b3e37309"
+      (reference "R15") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/e2717658-27da-42c5-8b05-81d7d7e33056"
+      (reference "R16") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/a4af273c-bcb4-4a79-a307-cf8220e73703"
+      (reference "U1") (unit 1) (value "ESP32-PICO-D4") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fca497b/43c37e60-02e3-4c36-854f-fa736ad3bae9"
+      (reference "U?") (unit 1) (value "TagConnect_TC2030_ESP32") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+    )
+  )
+)

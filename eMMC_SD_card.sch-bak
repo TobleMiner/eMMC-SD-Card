@@ -49,4 +49,26 @@ U 5FD9521E
 F0 "Adapter 6" 50
 F1 "eMMC-adapter.sch" 50
 $EndSheet
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FDC5AEE
+P 1700 1400
+F 0 "H?" H 1800 1446 50  0000 L CNN
+F 1 "MountingHole" H 1800 1355 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 1700 1400 50  0001 C CNN
+F 3 "~" H 1700 1400 50  0001 C CNN
+	1    1700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FDC62CD
+P 4750 3400
+F 0 "H?" H 4850 3446 50  0000 L CNN
+F 1 "MountingHole" H 4850 3355 50  0000 L CNN
+F 2 "ToolingHole:ToolingHole_JLCSMT" H 4750 3400 50  0001 C CNN
+F 3 "~" H 4750 3400 50  0001 C CNN
+	1    4750 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 (fp_lib_table
-  (lib (name Connector_PCB_Edge_SD)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_PCB_Edge_SD.pretty)(options "")(descr ""))
-  (lib (name Package_BGA_eMMC)(type KiCad)(uri ${KIPRJMOD}/lib/Package_BGA_eMMC.pretty)(options "")(descr ""))
-  (lib (name ToolingHole)(type KiCad)(uri ${KIPRJMOD}/lib/ToolingHole.pretty)(options "")(descr ""))
-  (lib (name Perforation)(type KiCad)(uri ${KIPRJMOD}/lib/Perforation.pretty)(options "")(descr ""))
+  (lib (name "Connector_PCB_Edge_SD")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector_PCB_Edge_SD.pretty")(options "")(descr ""))
+  (lib (name "ToolingHole")(type "KiCad")(uri "${KIPRJMOD}/lib/ToolingHole.pretty")(options "")(descr ""))
+  (lib (name "Perforation")(type "KiCad")(uri "${KIPRJMOD}/lib/Perforation.pretty")(options "")(descr ""))
+  (lib (name "Antenna_antenova")(type "KiCad")(uri "${KIPRJMOD}/lib/Antenna_antenova.pretty")(options "")(descr ""))
 )
