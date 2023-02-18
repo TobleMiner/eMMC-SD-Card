@@ -436,6 +436,26 @@
     [
       "00000000-0000-0000-0000-00005fca497b",
       "Adapter 1"
+    ],
+    [
+      "ed0257b5-f6de-409d-8a51-da6af8260c02",
+      "Adapter 2"
+    ],
+    [
+      "cdfdfdd9-5acd-4275-996f-1bb3c11f4eac",
+      "Adapter 3"
+    ],
+    [
+      "0af2e8fb-fb76-4a50-906d-3401ee226520",
+      "Adapter 4"
+    ],
+    [
+      "318d6f95-9e35-46ec-9cd4-2b0d29235a47",
+      "Adapter 5"
+    ],
+    [
+      "a4e044b9-f9aa-4e3c-8783-07351554e303",
+      "Adapter 6"
     ]
   ],
   "text_variables": {}
