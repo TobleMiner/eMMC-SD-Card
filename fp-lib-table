@@ -3,4 +3,5 @@
   (lib (name "ToolingHole")(type "KiCad")(uri "${KIPRJMOD}/lib/ToolingHole.pretty")(options "")(descr ""))
   (lib (name "Perforation")(type "KiCad")(uri "${KIPRJMOD}/lib/Perforation.pretty")(options "")(descr ""))
   (lib (name "Antenna_antenova")(type "KiCad")(uri "${KIPRJMOD}/lib/Antenna_antenova.pretty")(options "")(descr ""))
+  (lib (name "Icons")(type "KiCad")(uri "${KIPRJMOD}/lib/Icons.pretty")(options "")(descr ""))
 )

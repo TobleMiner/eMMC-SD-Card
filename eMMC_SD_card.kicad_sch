@@ -320,11 +320,14 @@
     (path "/00000000-0000-0000-0000-00005fca497b/e2717658-27da-42c5-8b05-81d7d7e33056"
       (reference "R16") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-00005fca497b/dad63cdc-5547-4f72-b818-0a22f6d6ddef"
+      (reference "TP1") (unit 1) (value "RESET") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-00005fca497b/a4af273c-bcb4-4a79-a307-cf8220e73703"
       (reference "U1") (unit 1) (value "ESP32-PICO-D4") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm")
     )
     (path "/00000000-0000-0000-0000-00005fca497b/43c37e60-02e3-4c36-854f-fa736ad3bae9"
-      (reference "U?") (unit 1) (value "TagConnect_TC2030_ESP32") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
+      (reference "U2") (unit 1) (value "TagConnect_TC2030_ESP32") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
     )
   )
 )
